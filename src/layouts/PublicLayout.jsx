@@ -1,10 +1,13 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 function PublicLayout() {
   return (
     <>
     <header></header>
-    <main></main>
+    <main>
+      <Outlet/>
+    </main>
     <footer></footer>
     </>
   )
