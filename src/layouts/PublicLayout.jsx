@@ -2,7 +2,11 @@ import React from 'react'
 
 function PublicLayout() {
   return (
-    <div>PublicLayout</div>
+    <>
+    <header></header>
+    <main></main>
+    <footer></footer>
+    </>
   )
 }
 
