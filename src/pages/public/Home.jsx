@@ -22,13 +22,12 @@ function Home() {
 
         {/* O'ng taraf - hero rasm qismi */}
         <div
-          className="bg-white rounded-3xl p-8"
-          style={{ boxShadow: '0 30px 70px -20px rgba(79, 70, 229, 0.25)' }}
+        
         >
-          <img
-            src="/public/big.png"
+          <img 
+            src="/public/Hero illustration.svg"
             alt="hero illustration"
-            className="w-full rounded-2xl"
+            
           />
         </div>
 
